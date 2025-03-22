@@ -1,7 +1,7 @@
 import { useState,useEffect } from 'react'
 import "@fontsource/figtree";
 import { motion, AnimatePresence } from "framer-motion";
-import '../App.css';
+
 
 function Hero() {
 
