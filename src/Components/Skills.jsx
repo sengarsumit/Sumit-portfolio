@@ -19,7 +19,7 @@ import Nodejslogo from '../assets/Nodejslogo.png'
 import Tailwindlogo from '../assets/Tailwindlogo.png'
 import  Springlogo from '../assets/Springlogo.png'
 import Postmanlogo from '../assets/Postmanlogo.png'
-import Javascriptlogo from '../assets/Javascriptlogo.png'
+import JavaScriptlogo from '../assets/JavaScriptlogo.png'
 import Gitlogo from '../assets/Gitlogo.png'
 
 import { motion } from 'framer-motion'
