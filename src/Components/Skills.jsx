@@ -1,5 +1,5 @@
 import React from 'react'
-import java from '../assets/Java.png'
+import java from '../assets/java.png'
 import git from '../assets/git.png'
 import linux from '../assets/linux.png'
 import javascript from '../assets/javascript.png'
@@ -12,7 +12,7 @@ import jpa from '../assets/jpa.png'
 import springboot from '../assets/springboot.png'
 import Rocket from '../assets/Rocket.png'
 import Reactlogo from '../assets/Reactlogo.png'
-import javalogo from '../assets/javalogo.png'
+import Javalogo from '../assets/Javalogo.png'
 import Linuxlogo from '../assets/Linuxlogo.png'
 
 import Nodejslogo from '../assets/Nodejslogo.png'
@@ -44,7 +44,7 @@ function Skills() {
       color: "blue",
       technologies: [
         { name: "React", logo: Reactlogo,  speed: 0.7 },
-        { name: "java", logo: javalogo   ,  speed: 0.8 },
+        { name: "java", logo: Javalogo   ,  speed: 0.8 },
         { name: "Nodejs", logo: Nodejslogo,  speed: 0.6 }
       ]
     },
