@@ -65,7 +65,7 @@ function Skills() {
       color: "red",
       technologies: [
         { name: "Spring", logo: Springlogo,  speed: 0.3 },
-        { name: "javascript", logo: Javascriptlogo,  speed: 0.25 },
+        { name: "javascript", logo: JavaScriptlogo,  speed: 0.25 },
         { name: "Git", logo: Gitlogo,  speed: 0.35 },
        
       ]
