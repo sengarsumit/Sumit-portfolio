@@ -21,7 +21,7 @@ function Hero() {
       <div className="absolute top-0 left-0 w-1/5 h-1/2 bg-[#2A6F4A]  blur-3xl rounded-full transform -translate-x-1/3 -translate-y-1/5"></div>
         <p className="text-xl mb-4 font-bold w-1/2 transform -translate-x-1/3 text-gray-300">Hi! That’s Me,</p>
           <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-green-500 opacity-20 blur-3xl rounded-full transform -translate-x-1/4 -translate-y-1/4"></div>
-        <h1 className="text-9xl font-bold bg-gradient-to-r from-gray-50  to-[#50D58E] bg-clip-text text-transparent">
+        <h1 className="text-9xl font-figtree font-bold bg-gradient-to-r from-gray-50  to-[#50D58E] bg-clip-text text-transparent">
           SUMIT SENGAR
         </h1>
         <div className="absolute bottom-25 right-25 flex items-center justify-center">
@@ -34,7 +34,7 @@ function Hero() {
       </div>
       <div className="text-3xl font-bold flex items-center gap-2 m-5">
       <span className="text-white">I am a</span>
-      <div className="relative w-80 h-8">
+      <div className="relative w-100 h-8">
         <AnimatePresence mode="wait">
           <motion.span
             key={roles[index]}
