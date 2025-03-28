@@ -73,8 +73,8 @@ function Skills() {
   ];
   return (
     <>
-        <div className="relative min-h-screen flex flex-col   items-center bg-black text-white">
-        <div className="absolute top-20 left-139 flex items-center justify-center">
+        <div className="relative min-h-screen flex flex-col   items-center bg-black text-white px-4">
+        <div className="absolute top-20 left-139 flex items-center justify-center hidden sm:flex">
          <h1 className='text-7xl '>S</h1>
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
@@ -82,14 +82,19 @@ function Skills() {
              <div className="absolute w-25 h-25 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-20 h-20 rounded-full border border-[#2A6F4A] "></div>
         </div>
-       <div className='absolute text-7xl top-20 text-centre'>
+       <div className='absolute lg:text-7xl top-20 text-centre hidden sm:flex'>
        <h1>kills and tools I master</h1>
        </div>
-       <div className="absolute  top-15 right-140 w-1 h-30 bg-blue-500 mx-auto">
+       <div className="text-center mt-16">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold block sm:hidden">
+          Skills & Tools I Master
+        </h1>
+      </div>
+       <div className="absolute  top-15 right-140 w-1 h-29 bg-blue-500 mx-auto ">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
-      <div className='absolute top-45 py-8  md:py-12  '>
-     <div className='container '>
+      <div className='absolute top-45 py-8  md:py-12absolute top-45 py-4 sm:py-6 md:py-12 w-full overflow-hidden  '>
+     <div className='container mx-auto '>
       <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,,transparent)]">
       <motion.div className='flex gap-10 flex-none pr-14'
       animate={{ translateX: "-50%", }}
@@ -121,6 +126,7 @@ function Skills() {
       </div>
     </div>
    </div>
+   
    <div className="bottom-1/3 absolute bg-black  ">
       <div className="relative w-full max-w-4xl aspect-square">
         {orbits.map((orbit, index) => (
