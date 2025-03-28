@@ -19,7 +19,7 @@ function Hero() {
        <div className="relative min-h-screen flex flex-col justify-center items-center bg-black text-white">
       <div className="relative text-center">
       <div className="absolute top-0 left-0 w-1/5 h-1/2 bg-[#2A6F4A]  blur-3xl rounded-full transform -translate-x-1/3 -translate-y-1/5"></div>
-        <p className="text-xl mb-4 sm:text-lg sm:mb font-bold w-1/2 transform -translate-x-1/3 text-gray-300">Hi! That’s Me,</p>
+        <p className="lg:text-xl mb-4 sm:text-sm sm:mb font-bold w-1/2 transform -translate-x-1/3 text-gray-300">Hi! That’s Me,</p>
           <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-green-500 opacity-20 blur-3xl rounded-full transform -translate-x-1/4 -translate-y-1/4"></div>
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-figtree font-bold bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
           SUMIT SENGAR
