@@ -13,8 +13,10 @@ function Footer() {
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>
         </div>
-            <img src={rocet} alt="rocet" className="absolute bottom-1/2 left-1/4  h-2/3 transform -translate-x-1/3 translate-y-1/2" />
-            <div className='absolute top-1/5 left-1/2  justify-around '  >
+            <img src={rocet} alt="rocet" className="absolute bottom-1/2 left-1/4 h-1/3 md:h-1/2 lg:h-2/3 transform -translate-x-1/3 translate-y-1/2" />
+            
+      
+            <div className='absolute top-1/5 left-1/2  justify-around hidden sm:block '  >
             <p className='text-lg'>Skilled in building RESTful APIs with Spring<br></br> Boot, implementing authentication with Spring <br></br>Security, and database integration using Hibernate.<br></br><br></br> Developed responsive web applications using HTML,<br></br> CSS, and JavaScript.<br></br><br></br>
             Gained cybersecurity insights during an internship with <br></br>Gurugram Police Cyber Security. Passionate about scalable<br></br> software development and continuous learning.</p>
             <div className='pt-20'>
@@ -23,6 +25,26 @@ function Footer() {
         </h1>
             </div>
             </div>
+            <div className="absolute top-1/5 left-1/2 transform -translate-x-1/2 text-center md:text-left block lg:hidden">
+          <p className="text-1sm md:text-lg leading-relaxed max-w-xs md:max-w-md">
+            Skilled in building RESTful APIs with Spring Boot, implementing authentication
+            with Spring Security, and database integration using Hibernate.
+            <br />
+            <br />
+            Developed responsive web applications using HTML, CSS, and JavaScript.
+            <br />
+            <br />
+            Gained cybersecurity insights during an internship with Gurugram Police Cyber Security. 
+            Passionate about scalable software development and continuous learning.
+          </p>
+
+          <div className="pt-10 md:pt-20">
+            <h1 className="text-5xl md:text-9xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
+              HIRE ME ?
+            </h1>
+          </div>
+        </div>
+            
             <div className="absolute top-70 left-40 w-1/6 h-1/6 bg-[#140CBA]  blur-3xl rounded-full transform -translate-x-1 -translate-y-1"></div>
             <div className="absolute bottom-40 left-35 w-1/5 h-1/3 bg-[#2A6F4A]  blur-3xl rounded-full transform -translate-x-1/3 -translate-y-1/3"></div>
             
@@ -35,7 +57,7 @@ function Footer() {
            
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025  All Rights Reserved.</span>
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025  All Rights Reserved.  </span>
     </div>
 </footer>
 

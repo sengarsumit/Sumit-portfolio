@@ -36,7 +36,7 @@ function Experience() {
         <div className="relative min-h-screen flex flex-col   items-center bg-black text-white">
         <div className="absolute top-0 left-0 w-1/6 h-1/6 bg-[#140CBA]  blur-3xl rounded-full transform translate-x-1/3 translate-y-1/2"></div>
         <div className="absolute top-1/2 right-40 w-1/6 h-1/6 bg-[#140CBA]  blur-3xl rounded-full transform translate-x-1/3 translate-y-1/2"></div>
-        <div className="absolute top-30 left-190 flex items-center justify-center">
+        <div className="absolute top-30 left-190 flex items-center justify-center hidden sm:flex">
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>

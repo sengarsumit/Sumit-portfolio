@@ -42,7 +42,7 @@ function Projects() {
    <>
    <div className="relative min-h-screen flex flex-col   items-center bg-black text-white">
        
-        <div className="absolute top-20 left-200 flex items-center justify-center">
+        <div className="absolute top-20 left-200 flex items-center justify-center hidden sm:flex">
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-25 h-25 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-20 h-20 rounded-full border border-[#2A6F4A] "></div>
@@ -62,10 +62,10 @@ function Projects() {
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A]"></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A]"></div>
         </div>
-       <div className=" absolute top-1/6 overflow-hidden w-full flex items-center  m-30">
+       <div className=" absolute top-1/3 overflow-hidden w-full flex items-center px-4">
       <motion.div
         ref={containerRef}
-        className="flex gap-20"
+        className="flex gap-6 md:gap-10 flex-nowrap"
         initial={{ x: 0 }}
         animate={{ x: ["0%", "-50%"] }}
         transition={{
@@ -77,20 +77,20 @@ function Projects() {
         {[...cards, ...cards].map((card, index) => (
           <motion.div
             key={index}
-            className="w-110 h-140 bg-gradient-to-b from-black via-black to-gray-900  border-1  border-[#abbbb2]   rounded-xl shadow-lg flex flex-col items-center text-white p-4"
+            className="w-64 md:w-72 lg:w-80 bg-gradient-to-b from-black via-black to-gray-900 border border-[#abbbb2] rounded-xl shadow-lg flex flex-col items-center text-white p-4"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             {/* Image */}
-            <img src={card.image} alt={card.title} className=" border  border-[#abbbb2] h-1/2 object-cover  m-5 rounded-t-lg" />
+            <img src={card.image} alt={card.title} className=" border border-[#abbbb2] w-full h-32 md:h-40 lg:h-48 object-cover rounded-t-lg" />
 
             {/* Text */}
-            <h3 className="text-lg font-serif mt-3">{card.title}</h3>
-            <p className="text-sm mt-4  text-white text-center">{card.description}</p>
+            <h3 className="text-sm md:text-lg font-serif mt-3">{card.title}</h3>
+            <p className="text-xs md:text-sm mt-2 text-white text-center">{card.description}</p>
 
             {/* Buttons */}
-            <div className="flex gap-4 mt-auto">
-            <a href={card.link} target="_blank"><button className="bg-black text-white flex items-center  px-6 py-3 rounded-lg border border-gray-700 shadow-[0px_4px_10px_rgba(255,255,255,0.2)] hover:shadow-[0px_6px_15px_rgba(255,255,255,0.3)] transition-all hover:bg-gray-900">Checkout
+            <div className="flex mt-4">
+            <a href={card.link} target="_blank"><button className="bg-black text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-gray-700 shadow-md hover:shadow-lg transition-all hover:bg-gray-900">Checkout
             </button></a>
               
             

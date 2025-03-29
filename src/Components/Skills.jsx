@@ -113,8 +113,8 @@ useEffect(() => {
        <div className="absolute  top-15 right-140 w-1 h-29 bg-blue-500 mx-auto ">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
-      <div className='absolute top-45 py-8  md:py-12  '>
-     <div className='container '>
+      <div className='absolute top-45 py-4 sm:py-6 md:py-8 lg:md:py-12 w-full  '>
+     <div className='container mx-auto px-4 sm:px-6'>
       <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,,transparent)]">
       <motion.div className='flex gap-10 flex-none pr-14'
       animate={{ translateX: "-50%", }}
