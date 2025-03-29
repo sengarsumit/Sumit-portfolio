@@ -25,8 +25,8 @@ function Footer() {
         </h1>
             </div>
             </div>
-            <div className="absolute top-1/5 left-1/2 transform -translate-x-1/2 text-center md:text-left block lg:hidden">
-          <p className="text-1sm md:text-lg leading-relaxed max-w-xs md:max-w-md">
+            <div className="absolute top-1/8 left-1/2 transform -translate-x-1/2 text-center md:text-left block lg:hidden">
+          <p className="text-sm md:text-lg leading-relaxed max-w-xs md:max-w-md">
             Skilled in building RESTful APIs with Spring Boot, implementing authentication
             with Spring Security, and database integration using Hibernate.
             <br />
