@@ -27,6 +27,7 @@ import { useState, useEffect } from 'react';
 
 function Skills() {
   const [rotation, setRotation] = useState(0);
+  const [orbits, setOrbits] = useState([]);
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -35,42 +36,61 @@ function Skills() {
     
     return () => clearInterval(interval);
   }, []);
-  
-  // Tech logos configuration for each orbit
-  const orbits = [
-    {
-      name: "one",
-      distance: 100,
-      color: "blue",
-      technologies: [
-        { name: "React", logo: Reactlogo,  speed: 0.7 },
-        { name: "java", logo: Javalogo   ,  speed: 0.8 },
-        { name: "Nodejs", logo: Nodejslogo,  speed: 0.6 }
-      ]
-    },
-    {
-      name: "second",
-      distance: 170,
-      color: "green",
-      technologies: [
-        { name: "Linux", logo: Linuxlogo,  speed: 0.5 },
-      
-        { name: "Postman", logo: Postmanlogo,  speed: 0.4 },
-        { name: "Tailwind", logo: Tailwindlogo,  speed: 0.55 }
-      ]
-    },
-    {
-      name: "Third",
-      distance: 240,
-      color: "red",
-      technologies: [
-        { name: "Spring", logo: Springlogo,  speed: 0.3 },
-        { name: "javascript", logo: JavaScriptlogo,  speed: 0.25 },
-        { name: "Git", logo: Gitlogo,  speed: 0.35 },
-       
-      ]
-    }
-  ];
+  const [iconSize, setIconSize] = useState(window.innerWidth < 861 ? 35 : 50);
+
+useEffect(() => {
+  const handleResize = () => {
+    setIconSize(window.innerWidth < 861 ? 35 : 50);
+  };
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
+  const updateOrbits = () => {
+    const screenWidth = window.innerWidth;
+
+    let newOrbits = [
+      {
+        name: "one",
+        distance: screenWidth <= 861 ? 60 : 100, // Adjusted for smaller screens
+        color: "blue",
+        technologies: [
+          { name: "React", logo: Reactlogo, speed: 0.7 },
+          { name: "Java", logo: Javalogo, speed: 0.8 },
+          { name: "Node.js", logo: Nodejslogo, speed: 0.6 },
+        ],
+      },
+      {
+        name: "second",
+        distance: screenWidth <= 861 ? 110 : 170,
+        color: "green",
+        technologies: [
+          { name: "Linux", logo: Linuxlogo, speed: 0.5 },
+          { name: "Postman", logo: Postmanlogo, speed: 0.4 },
+          { name: "Tailwind", logo: Tailwindlogo, speed: 0.55 },
+        ],
+      },
+      {
+        name: "Third",
+        distance: screenWidth <= 861 ? 160 : 240,
+        color: "red",
+        technologies: [
+          { name: "Spring", logo: Springlogo, speed: 0.3 },
+          { name: "JavaScript", logo: JavaScriptlogo, speed: 0.25 },
+          { name: "Git", logo: Gitlogo, speed: 0.35 },
+        ],
+      },
+    ];
+
+    setOrbits(newOrbits);
+  };
+
+  useEffect(() => {
+    updateOrbits(); // Set initial distances
+    window.addEventListener("resize", updateOrbits);
+    return () => window.removeEventListener("resize", updateOrbits);
+  }, []);
   return (
     <>
         <div className="relative min-h-screen flex flex-col   items-center bg-black text-white px-4">
@@ -93,8 +113,8 @@ function Skills() {
        <div className="absolute  top-15 right-140 w-1 h-29 bg-blue-500 mx-auto ">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
-      <div className='absolute top-45 py-8  md:py-12absolute top-45 py-4 sm:py-6 md:py-12 w-full overflow-hidden  '>
-     <div className='container mx-auto '>
+      <div className='absolute top-45 py-8  md:py-12  '>
+     <div className='container '>
       <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,,transparent)]">
       <motion.div className='flex gap-10 flex-none pr-14'
       animate={{ translateX: "-50%", }}
@@ -155,23 +175,20 @@ function Skills() {
             
             return (
               <div
-                key={`tech-${orbitIndex}-${techIndex}`}
-                className="absolute  flex items-center justify-center z-20 rounded-full shadow-lg overflow-hidden"
-                style={{
-                  width: 50,
-                  height: 50,
-                  transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`,
-                  top: '50%',
-                  left: '50%',
-                  transition: 'transform 0.1s linear'
-                }}
-              >
-                <img 
-                  src={tech.logo} 
-                  alt={tech.name}
-                  className="w-full h-full object-contain"
-                />
-              </div>
+  key={`tech-${orbitIndex}-${techIndex}`}
+  className="absolute flex items-center justify-center z-20 rounded-full shadow-lg overflow-hidden"
+  style={{
+    width: `${iconSize}px`,
+    height: `${iconSize}px`,
+    transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`,
+    top: "50%",
+    left: "50%",
+    transition: "transform 0.1s linear",
+  }}
+>
+  <img src={tech.logo} alt={tech.name} className="w-full h-full object-contain" />
+</div>
+
             );
           })
         ))}
