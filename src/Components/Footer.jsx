@@ -38,8 +38,8 @@ function Footer() {
             Passionate about scalable software development and continuous learning.
           </p>
 
-          <div className="pt-10 md:pt-20">
-            <h1 className="text-5xl md:text-9xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
+          <div className=" md:pt-20">
+            <h1 className="text-4xl md:text-8xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
               HIRE ME ?
             </h1>
           </div>
@@ -50,7 +50,7 @@ function Footer() {
             
             
 
-<footer class="absolute bottom-0 w-full bg-black rounded-lg shadow-sm  m-4">
+<footer class="absolute bottom-0 w-full  rounded-lg shadow-sm  ">
     <div class="w-full max-w-screen-xl mx-auto  md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
            
