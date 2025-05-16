@@ -9,8 +9,7 @@ function Great() {
          <div className="absolute top-10 left-10 w-1/8 h-1/8 bg-[#140CBA]  blur-3xl rounded-full transform -translate-x-1 -translate-y-1"></div>
         
          
-         <div className="absolute lg:top-30 left-[30%]  flex items-center justify-center hidden sm:flex">
-         <h1 className='lg:text-7xl md:text-4xl'>&</h1>
+         <div className="absolute lg:top-[10vw] left-[34.5vw]  flex items-center justify-center hidden sm:flex">
              <div className="absolute w-40 h-40  rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>
@@ -20,7 +19,7 @@ function Great() {
         
        <div className='absolute lg:text-6xl lg:top-[7.5rem] md:text-3xl md:top-20  hidden sm:flex  '>
      
-       <h1 className=' font-light'>great at 3 things </h1>
+       <h1 className=' font-light'>& great at 3 things </h1>
             </div>
             <div className="absolute top-30  left-0 flex items-center justify-center block sm:hidden">
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A] "></div>
@@ -32,7 +31,7 @@ function Great() {
             <div className=' absolute block sm:hidden text-5xl text-centre top-40 '>
             Great At 3 things</div>
             
-            <div className="absolute  lg:top-25 right-[30%] w-1 h-31 hidden sm:flex   bg-blue-500 mx-auto">
+            <div className="absolute  lg:top-25 right-[30vw] w-1 h-31 hidden sm:flex   bg-blue-500 mx-auto">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
        <div className=" absolute  top-1/2 lg:text-2xl  space-y-10  ">

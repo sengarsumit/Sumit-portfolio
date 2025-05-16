@@ -94,8 +94,8 @@ useEffect(() => {
   return (
     <>
         <div className="relative min-h-screen flex flex-col   items-center bg-black text-white px-4">
-        <div className="absolute top-20 left-[22.5%] flex items-center justify-center hidden sm:flex">
-         <h1 className='text-7xl '>S</h1>
+        <div className="absolute top-[15vh] left-[26vw] flex items-center justify-center hidden sm:flex">
+
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>
@@ -103,14 +103,14 @@ useEffect(() => {
              <div className="absolute w-20 h-20 rounded-full border border-[#2A6F4A] "></div>
         </div>
        <div className='absolute lg:text-7xl top-20 text-centre hidden sm:flex'>
-       <h1>kills and tools I master</h1>
+       <h1>Skills and tools I master</h1>
        </div>
        <div className="text-center mt-16">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold block sm:hidden">
           Skills & Tools I Master
         </h1>
       </div>
-       <div className="absolute  top-15 right-[20%] w-1 h-29 bg-blue-500 mx-auto ">
+       <div className="absolute  top-15 right-[20vw] w-1 h-29 bg-blue-500 mx-auto ">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
       <div className='absolute top-[20%] py-4 sm:py-6 md:py-8 lg:md:py-12 w-full  '>
