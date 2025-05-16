@@ -50,9 +50,9 @@ function Footer() {
             
             
 
-<footer class="absolute bottom-0 w-full  rounded-lg shadow-sm  ">
-    <div class="w-full max-w-screen-xl mx-auto  md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
+<footer class="absolute bottom-[5%]  rounded-lg shadow-sm  ">
+    <div class="w-full max-w-screen-xl mx-auto  ">
+        <div class="sm:flex items-center  ">
            
            
         </div>
