@@ -110,7 +110,7 @@ useEffect(() => {
           Skills & Tools I Master
         </h1>
       </div>
-       <div className="absolute  top-15 right-[20vw] w-1 h-29 bg-blue-500 mx-auto ">
+       <div className="absolute  top-15 right-[20vw] w-1 h-29 hidden sm:flex bg-blue-500 mx-auto ">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
       <div className='absolute top-[20%] py-4 sm:py-6 md:py-8 lg:md:py-12 w-full  '>

@@ -66,7 +66,7 @@ function Hero() {
         <a href="mailto:sengarsumit45@gmail.com" className="text-gray-300 hover:text-white transition">GMAIL ↗</a>
       </div>
 
-      <a href='https://drive.google.com/file/d/12nHvi75HU0Tus9rp9HnK_Cew53qkqybf/view?usp=sharing' target="_blank">
+      <a href='https://drive.google.com/file/d/1AQ1oesAG-7U8AjOgyPZBO_iXx7SksmDM/view?usp=sharing' target="_blank">
       <button className="absolute top-4 sm:top-6 md:top-8 right-4 sm:right-6 md:right-8 px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-base border border-gray-400 rounded-lg hover:bg-gray-700 transition">
         Get Resume
       </button>
