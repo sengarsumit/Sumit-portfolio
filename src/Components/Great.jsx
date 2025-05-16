@@ -9,7 +9,7 @@ function Great() {
          <div className="absolute top-10 left-10 w-1/8 h-1/8 bg-[#140CBA]  blur-3xl rounded-full transform -translate-x-1 -translate-y-1"></div>
         
          
-         <div className="absolute lg:top-30 left-[27rem]  flex items-center justify-center hidden sm:flex">
+         <div className="absolute lg:top-30 left-[30%]  flex items-center justify-center hidden sm:flex">
          <h1 className='lg:text-7xl md:text-4xl'>&</h1>
              <div className="absolute w-40 h-40  rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
@@ -32,7 +32,7 @@ function Great() {
             <div className=' absolute block sm:hidden text-5xl text-centre top-40 '>
             Great At 3 things</div>
             
-            <div className="absolute  lg:top-25 right-[30rem] w-1 h-31 hidden sm:flex   bg-blue-500 mx-auto">
+            <div className="absolute  lg:top-25 right-[30%] w-1 h-31 hidden sm:flex   bg-blue-500 mx-auto">
          <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-12 border-transparent border-t-blue-500"></div>
        </div>
        <div className=" absolute  top-1/2 lg:text-2xl  space-y-10  ">
