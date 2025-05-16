@@ -49,18 +49,18 @@ function Projects() {
              <div className="absolute w-15 h-15 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-10 h-10 rounded-full border border-[#2A6F4A] "></div>
         </div>
-       <div className='absolute text-4xl top-15 text-centre'>
+       <div className='absolute text-4xl top-[10vw] text-centre'>
        <h1>Dive into my work </h1>
        </div>
        <div className="absolute top-1/3 right-50 flex items-center justify-center gap-3">
-                <div className="absolute w-100 h-100 rounded-full border border-[#2A6F4A] "></div>
-             <div className="absolute w-90 h-90 rounded-full border border-[#2A6F4A] "></div>
-             <div className="absolute w-80 h-80 rounded-full border border-[#2A6F4A]"></div>
+                <div className="absolute w-90 h-90 rounded-full border border-[#2A6F4A] "></div>
+             <div className="absolute w-80 h-80 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-70 h-70 rounded-full border border-[#2A6F4A]"></div>
-             <div className="absolute w-60 h-60 rounded-full border border-[#2A6F4A] "></div>
-             <div className="absolute w-50 h-50 rounded-full border border-[#2A6F4A]"></div>
+             <div className="absolute w-60 h-60 rounded-full border border-[#2A6F4A]"></div>
+             <div className="absolute w-50 h-50 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A]"></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A]"></div>
+             <div className="absolute w-20 h-20 rounded-full border border-[#2A6F4A]"></div>
         </div>
        <div className=" absolute top-1/3 overflow-hidden w-full flex items-center px-4">
       <motion.div

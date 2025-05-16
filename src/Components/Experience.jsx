@@ -37,11 +37,11 @@ function Experience() {
         <div className="absolute top-0 left-0 w-1/6 h-1/6 bg-[#140CBA]  blur-3xl rounded-full transform translate-x-1/3 translate-y-1/2"></div>
         <div className="absolute top-1/2 right-40 w-1/6 h-1/6 bg-[#140CBA]  blur-3xl rounded-full transform translate-x-1/3 translate-y-1/2"></div>
         <div className="absolute top-30 left-190 flex items-center justify-center hidden sm:flex">
-             <div className="absolute w-40 h-40 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-35 h-35 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-30 h-30 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-25 h-25 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-20 h-20 rounded-full border border-[#2A6F4A] "></div>
+             <div className="absolute w-15 h-15 rounded-full border border-[#2A6F4A] "></div>
         </div>
         <div className="absolute top-20   text-center">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-snug">

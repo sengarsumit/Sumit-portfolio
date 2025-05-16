@@ -16,7 +16,7 @@ function Hero() {
   }, []);
   return (
     <>
-       <div className="relative min-h-screen flex flex-col justify-center items-center bg-black text-white">
+       <div className="relative overflow-x-hidden min-h-screen flex flex-col justify-center items-center bg-black text-white">
       <div className="relative text-center">
       <div className="absolute top-0 left-0 w-1/5 h-1/2 bg-[#2A6F4A]  blur-3xl rounded-full transform -translate-x-1/3 -translate-y-1/5"></div>
         <p className="lg:text-xl mb-4 sm:text-sm sm:mb font-bold w-1/2 transform -translate-x-1/3 text-gray-300">Hi! That’s Me,</p>
@@ -24,7 +24,7 @@ function Hero() {
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-figtree font-bold bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
           SUMIT SENGAR
         </h1>
-        <div className="absolute bottom-25 right-25 flex hidden md:flex items-center justify-center">
+        <div className="absolute bottom-[25vw] right-[25vw] flex hidden md:flex items-center justify-center">
           <div className="absolute w-40 h-40 rounded-full border border-white opacity-40"></div>
           <div className="absolute w-30 h-30 rounded-full border border-white opacity-30"></div>
           <div className="absolute w-20 h-20 rounded-full border border-white opacity-20"></div>
