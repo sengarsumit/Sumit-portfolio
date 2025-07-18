@@ -4,7 +4,7 @@ import { useRef } from "react";
 import landing from '../assets/landing.png'
 import spring from '../assets/spring.jpeg'
 import vidtube from '../assets/vidtube.png'
-import Rives from '../assets/Rives-Estate.png'
+import Rives from '../assets/Rives-estate.png'
 import java from '../assets/java.png'
 const cards = [
     {
