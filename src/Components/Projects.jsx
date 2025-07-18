@@ -4,6 +4,7 @@ import { useRef } from "react";
 import landing from '../assets/landing.png'
 import spring from '../assets/spring.jpeg'
 import vidtube from '../assets/vidtube.png'
+import Rives from '../assets/Rives-Estate.png'
 import java from '../assets/java.png'
 const cards = [
     {
@@ -29,9 +30,10 @@ const cards = [
     },
     {
       id: 4,
-      title: "Coming soon",
-      image: java,
-      description: "Java.",
+      title: "Rives-Estate",
+      image: Rives,
+      description: "A Spring Boot backend for a real estate rental platform with JWT authentication, role-based access, and Cloudinary image uploads.",
+      link:"https://github.com/sengarsumit/Rives-estate"
     },
   ];
   
