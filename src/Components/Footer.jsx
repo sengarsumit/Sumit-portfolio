@@ -22,7 +22,7 @@ function Footer() {
             <div className='pt-20'>
             <h1 className="text-9xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
   <a
-    href="https://www.linkedin.com/in/sengarsumit" // 🔗 replace with your link
+    href="https://www.linkedin.com/in/sengarsumit" // link
     target="_blank"
     rel="noopener noreferrer"
     className="hover:underline hover:text-[#50D58E] transition"
@@ -47,7 +47,14 @@ function Footer() {
 
           <div className=" md:pt-20">
             <h1 className="text-4xl md:text-8xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
-              HIRE ME ?
+              <a
+    href="https://www.linkedin.com/in/sengarsumit" // link
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline hover:text-[#50D58E] transition"
+  >
+    HIRE ME ?
+  </a>
             </h1>
           </div>
         </div>
