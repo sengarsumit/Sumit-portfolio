@@ -20,9 +20,16 @@ function Footer() {
             <p className='text-lg'>Skilled in building RESTful APIs with Spring<br></br> Boot, implementing authentication with Spring <br></br>Security, and database integration using Hibernate.<br></br><br></br> Developed responsive web applications using HTML,<br></br> CSS, and JavaScript.<br></br><br></br>
             Gained cybersecurity insights during an internship with <br></br>Gurugram Police Cyber Security. Passionate about scalable<br></br> software development and continuous learning.</p>
             <div className='pt-20'>
-            <h1 className="text-9xl   bg-gradient-to-r from-gray-50  to-[#50D58E] bg-clip-text text-transparent">
-          HIRE ME ?
-        </h1>
+            <h1 className="text-9xl bg-gradient-to-r from-gray-50 to-[#50D58E] bg-clip-text text-transparent">
+  <a
+    href="https://www.linkedin.com/in/sengarsumit" // 🔗 replace with your link
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline hover:text-[#50D58E] transition"
+  >
+    HIRE ME ?
+  </a>
+</h1>
             </div>
             </div>
             <div className="absolute top-1/8 left-1/2 transform -translate-x-1/2 text-center md:text-left block lg:hidden">

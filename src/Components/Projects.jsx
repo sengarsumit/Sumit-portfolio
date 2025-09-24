@@ -51,7 +51,7 @@ function Projects() {
              <div className="absolute w-15 h-15 rounded-full border border-[#2A6F4A] "></div>
              <div className="absolute w-10 h-10 rounded-full border border-[#2A6F4A] "></div>
         </div>
-       <div className='absolute text-4xl top-[10vw] text-centre'>
+       <div className='absolute text-4xl top-[6vw] text-centre'>
        <h1>Dive into my work </h1>
        </div>
        <div className="absolute top-1/3 right-50 flex items-center justify-center gap-3">
